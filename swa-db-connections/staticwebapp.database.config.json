@@ -19,6 +19,7 @@
         "allow-introspection": true
       },
       "host": {
+          "mode":"production",
         "cors": {
           "origins": ["https://localhost:4280"],
           "allow-credentials": false
