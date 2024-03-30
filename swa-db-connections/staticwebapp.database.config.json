@@ -10,7 +10,7 @@
   "runtime": {
     "rest": {
       "enabled": true,
-      "path": "/api/country",
+      "path": "/api",
       "request-body-strict": true
     },
     "graphql": {
@@ -31,7 +31,7 @@
   },
   "entities": {
     "Country": {
-      "source": "country"
+      "source": "dbo.country"
       "permissions": [
         {
           "actions": ["*"],
