@@ -31,13 +31,7 @@
   },
   "entities": {
     "Country": {
-      "source": {
-        "object": "dbo.testdb",
-        "type": "table",
-        "key-fields": [
-          "Id"
-        ]
-      },
+      "source": "country"
       "permissions": [
         {
           "actions": ["*"],
