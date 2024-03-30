@@ -35,7 +35,7 @@
         "object": "dbo.country",
         "type": "table",
         "key-fields": [
-          "CountryID"
+          "Id"
         ]
       },
       "permissions": [
