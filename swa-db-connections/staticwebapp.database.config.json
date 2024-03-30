@@ -32,7 +32,7 @@
   "entities": {
     "Country": {
       "source": {
-        "object": "dbo.country",
+        "object": "dbo.testdb",
         "type": "table",
         "key-fields": [
           "Id"
