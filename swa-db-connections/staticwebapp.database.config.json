@@ -32,7 +32,7 @@
   "entities": {
     "Country": {
       "source": {
-        "object": "country.country",
+        "object": "testdb.country",
         "type": "table",
         "key-fields": [
           "CountryID"
