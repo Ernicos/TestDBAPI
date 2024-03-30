@@ -10,7 +10,7 @@
   "runtime": {
     "rest": {
       "enabled": true,
-      "path": "/apitest",
+      "path": "/api",
       "request-body-strict": true
     },
     "graphql": {
@@ -32,7 +32,7 @@
   "entities": {
     "Country": {
       "source": {
-        "object": "testdb.country",
+        "object": "dbo.country",
         "type": "table",
         "key-fields": [
           "CountryID"
